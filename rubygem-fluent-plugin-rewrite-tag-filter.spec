@@ -2,9 +2,9 @@
 %global gem_name fluent-plugin-rewrite-tag-filter
 
 Name: rubygem-%{gem_name}
-Version: 1.5.5
-Release: 5%{?dist}
-Summary: Fluentd Output filter plugins designed to rewrite tag like mod_rewrite.
+Version: 1.5.6
+Release: 1%{?dist}
+Summary: Fluentd Output filter plugin.
 Group: Development/Languages
 License: ASL 2.0
 URL: https://github.com/y-ken/fluent-plugin-rewrite-tag-filter
@@ -83,6 +83,9 @@ popd
 %{gem_instdir}/test
 
 %changelog
+* Thu Jun 29 2017 Rich Megginson <rmeggins@redhat.com> - 1.5.6-1
+- version 1.5.6
+
 * Fri Feb 17 2017 Sandro Bonazzola <sbonazzo@redhat.com> - 1.5.5-5
 - Shortened Summary
 
